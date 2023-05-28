@@ -1,0 +1,271 @@
+body {
+   margin : 0;
+}
+/* 탑 메뉴 */
+.top-menu {
+   height: 5rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 2px solid gray;
+   background-color: white;
+   position: sticky;
+   top : 0;
+   max-width: 1200px;
+   margin: auto;
+}
+.top-menu .logo img {
+   width: 7rem;
+}
+.top-menu .search input {
+   width: 14rem;
+   text-align: center;
+   background-color: #ededed;
+   height: 1.6rem;
+   border: 1px solid darkgray;
+   border-radius: 4px;
+}
+.top-menu .menu-wrapper {
+   width: 12rem;
+   display: flex;
+   justify-content: space-between;
+   font-size: 1.5rem;
+   padding-right: 3rem;
+}
+
+/* 컨텐츠섹션 */
+.contents-wrapper {
+   display: flex;
+   max-width: 1200px;
+   margin : auto;
+}
+
+/* 메인섹션 */
+.contents-wrapper .main-contents-wrapper {
+   width: 60%;
+   background-color: #f0f0f0;
+   padding: 3rem 0 0 2rem;
+   height: 120rem;
+}
+.contents-wrapper .main-contents-wrapper .main-contents {
+   background-color: white;
+   border: 2px solid lightgray;
+   border-radius: 0.5rem;
+   margin-top: 3rem;
+}
+.contents-wrapper .main-contents-wrapper .story-bar-wrapper {
+   width: 100%;
+   display: flex;
+   background-color: white;
+   border : 2px solid lightgray;
+   border-radius : 0.5rem;
+   overflow: hidden;
+}
+.contents-wrapper .main-contents-wrapper .story-bar-wrapper .story-wrapper{
+   margin : 1rem;
+}
+.contents-wrapper .main-contents-wrapper .story-bar-wrapper .story-img {
+   border: 3px solid red;
+   border-radius: 3rem;
+   overflow: hidden;
+   display: flex;
+}
+.contents-wrapper .main-contents-wrapper .story-bar-wrapper .story-img img{
+   width: 5rem;
+   border-radius: 3rem;
+   border: 5px solid white;
+}
+.contents-wrapper .main-contents-wrapper .main-contents .human-info-wrapper {
+   justify-content: space-between;
+   padding: 0 1rem;
+}
+.contents-wrapper .main-contents-wrapper .main-contents .human-info-wrapper .human-contents .btn-follow{
+   font-weight: 900;
+   font-size: 2rem;
+   padding-right: 1rem;
+}
+.contents-wrapper .main-contents .human-picture {
+   margin-top: 1rem;
+}
+.contents-wrapper .main-contents .human-picture img{
+   width : 100%;
+   background-color: #6f5e70;
+}
+
+.contents-wrapper .main-contents .human-etc-wrapper span {
+   font-weight: 900;
+}
+.contents-wrapper .main-contents .human-etc-wrapper .reply-top-wrapper {
+   display: flex;
+   padding : 0 1rem;
+}
+.contents-wrapper .main-contents .human-etc-wrapper .reply-top-wrapper .top-emotion{
+   width : 80%
+}
+.contents-wrapper .main-contents .human-etc-wrapper .reply-top-wrapper span{
+   font-size: 1.5rem;
+   padding-right: 1rem;
+}
+.contents-wrapper .main-contents .human-etc-wrapper .reply-top-wrapper .top-save{
+   width : 20%;
+   text-align: right;
+}
+.contents-wrapper .main-contents .human-etc-wrapper .reply-middle-wrapper {
+   padding : 0 1rem;
+}
+.contents-wrapper .main-contents .human-etc-wrapper .reply-middle-wrapper .reply-liked{
+   margin-top: 0.7rem;
+   display: flex;
+   align-items: center;
+}
+.contents-wrapper .main-contents .human-etc-wrapper .reply-middle-wrapper .reply-liked img{
+   width: 1.8rem;
+   border-radius: 2rem;
+   margin-right: 0.5rem;
+}
+.contents-wrapper .main-contents .human-etc-wrapper .reply-middle-wrapper .reply-phrase{
+   margin-top: 1rem;
+}
+.contents-wrapper .main-contents .human-etc-wrapper .reply-middle-wrapper .count-reply{
+   margin: 1rem 0;
+   color: gray;
+}
+.contents-wrapper .main-contents .human-etc-wrapper .reply-middle-wrapper .reply-section .reply-list{
+   display: flex;
+   justify-content: space-between;
+}
+.contents-wrapper .main-contents .human-etc-wrapper .reply-middle-wrapper .reply-section .reply-list .reply-text{
+   width: 70%;
+}
+.contents-wrapper .main-contents .human-etc-wrapper .reply-middle-wrapper .reply-time{
+   margin : 1rem 0;
+   color: gray;
+}
+.contents-wrapper .main-contents .human-etc-wrapper .reply-bottom {
+   border-top: 1px solid gray;
+}
+.contents-wrapper .main-contents .human-etc-wrapper .reply-bottom .comment-wrapper{
+   display: flex;
+   height: 4rem;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 1rem;
+}
+.contents-wrapper .main-contents .human-etc-wrapper .reply-bottom .comment-wrapper .comment {
+   width: 80%;
+}
+.contents-wrapper .main-contents .human-etc-wrapper .reply-bottom .comment-wrapper .comment input{
+   border: none;
+   width: 80%;
+   size: 100%;
+   display: block;
+   height: 3rem;
+}
+
+/* 사이드섹션 */
+.contents-wrapper .side-menu-wrapper {
+   width: 40%;
+   background-color: #f5f1f0;
+}
+.contents-wrapper .side-menu-wrapper .side-menu {
+   padding: 4rem 3rem;
+   position: sticky;
+   top: 0;
+}
+
+.contents-wrapper .human-info-wrapper {
+   display: flex;
+   align-items: center;
+   margin-top: 1rem;
+   /* background-color: red; */
+}
+.contents-wrapper .side-menu-wrapper .side-menu .list-wrapper .human-info-wrapper .btn-follow{
+   color : rgb(44, 74, 204);
+   font-weight: 900;
+}
+.contents-wrapper .human-contents{
+   width: 80%;
+   display: flex;
+   align-items: center;
+}
+.contents-wrapper .side-menu-wrapper .side-menu .list-wrapper .human-info-wrapper .human-contents .human-img img,
+.contents-wrapper .side-menu-wrapper .side-menu .title-list-wrapper .list-wrapper .human-info-wrapper .human-contents .human-img img{
+   width : 5rem;
+   display: block;
+   border-radius: 3rem;
+}
+.contents-wrapper .human-info-wrapper .human-contents .human-info {
+   margin-left: 1rem;
+}
+.contents-wrapper .human-info-wrapper .human-contents .human-img {
+   border: 3px solid lightgray;
+   border-radius: 4rem;
+   display: flex;
+}
+
+.contents-wrapper .main-contents .human-info-wrapper .human-contents .human-img img,
+.contents-wrapper .side-menu-wrapper .side-menu .list-wrapper .human-info-wrapper .human-contents .human-img img {
+   width: 4rem;
+   border: 6px solid white;
+   border-radius: 4rem;
+}
+.contents-wrapper .side-menu-wrapper .side-menu .list-wrapper .human-info-wrapper .human-contents .human-info .human-id{
+   width : 5rem;
+   font-weight: 900;
+}
+.contents-wrapper .side-menu-wrapper .side-menu .list-wrapper .human-info-wrapper .human-contents .human-info .human-follow-status{
+   color : gray;
+   font-size: 0.8rem;
+}
+.contents-wrapper .side-menu-wrapper .side-menu .title-list-wrapper .list-wrapper .human-info-wrapper .btn-follow{
+   width: 20%;
+}
+.contents-wrapper .side-menu-wrapper .side-menu .suggestion-list-wrapper {
+   margin-top: 3rem;
+}
+.contents-wrapper .side-menu-wrapper .side-menu .suggestion-list-wrapper .suggestion-title {
+   display: flex;
+}
+.contents-wrapper .side-menu-wrapper .side-menu .suggestion-list-wrapper .suggestion-title .suggestion-text{
+   width: 80%;
+   color: gray;
+   font-weight: 900;
+}
+.contents-wrapper .side-menu-wrapper .side-menu .suggestion-list-wrapper .suggestion-title .btn-suggestion {
+   width: 20%;
+   font-weight: 900;
+}
+.contents-wrapper .side-menu-wrapper .side-menu .suggestion-list-wrapper .list-wrapper {
+   margin-top: 2rem;
+}
+.contents-wrapper .side-menu-wrapper .side-menu .suggestion-list-wrapper .side-info-wrapper {
+   margin-top: 2rem;
+   color: gray;
+}
+.contents-wrapper .side-menu-wrapper .side-menu .suggestion-list-wrapper .side-info-wrapper .company-name{
+   margin-top: 1rem;
+   font-weight: 600;
+}
+
+
+@media screen and (max-width:1000px){
+   .top-menu {
+      padding-left: 5rem;
+      padding-right: 2rem;
+   }
+   .top-menu .search {
+      display: none;
+   }
+   .contents-wrapper {
+      max-width: 800px;
+      margin : 0 auto;
+   }
+   .contents-wrapper .side-menu-wrapper {
+      display: none;
+   }
+   .contents-wrapper .main-contents-wrapper {
+      width: 90%;
+      padding : 3rem;
+   }
+   
+}
